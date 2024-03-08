@@ -23,5 +23,8 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "no-useless-catch": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off"
   }
 }

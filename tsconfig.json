@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "vite.config.ts", ".eslintrc.cjs", "jest.config.js"],
+  "include": ["src", "tsup.config.ts", ".eslintrc.cjs", "jest.config.js"],
   "exclude": ["node_modules", "src/**.spec.ts"]
 }

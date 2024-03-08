@@ -1,3 +1,3 @@
-# test-2
+# test-2 with TSUP
 
-This is a package created to practice building a TypeScript package with Vite.
+This is a package created to practice building a TypeScript package with TSUP.

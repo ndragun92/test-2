@@ -1,2 +1,2 @@
+export { default as FileSystemCachePlugin } from './file-cache.ts'
 export { default as sum } from './sum'
-export { default as subtract } from './subtract'
