@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  ignorePatterns: ['dist/', 'node_modules/'],
+  ignorePatterns: ['dist/', 'node_modules/', 'src/**.spec.ts'],
   extends: 'standard-with-typescript',
   overrides: [
     {
@@ -16,12 +16,12 @@ module.exports = {
       parserOptions: {
         sourceType: 'script'
       }
-    }
+    },
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   rules: {
-  }
+  },
 }
