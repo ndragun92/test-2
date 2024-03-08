@@ -1,4 +1,4 @@
-function subtract (a: number, b: number): number {
+const subtract = (a: number, b: number): number => {
   return a - b
 }
 
