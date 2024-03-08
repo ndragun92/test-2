@@ -1,2 +1,5 @@
-export { default as sum } from './sum'
-export { default as subtract } from './subtract'
+const hello = (name: string) => {
+  return `Hello there, ${name}!`
+}
+
+export { hello }
