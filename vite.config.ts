@@ -26,7 +26,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'test-2',
       fileName: 'test-2',
-      formats: ['es', 'cjs']
+      formats: ['es', 'cjs', 'umd']
     },
     rollupOptions: {
       plugins: [
