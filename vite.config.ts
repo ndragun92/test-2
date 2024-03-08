@@ -29,7 +29,6 @@ export default defineConfig({
       formats: ['es', 'cjs']
     },
     rollupOptions: {
-      external: [],
       plugins: [
         typescriptPaths({
           preserveExtensions: true

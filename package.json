@@ -1,6 +1,6 @@
 {
   "name": "@ndragun92/test-2",
-  "version": "0.0.6-alpha",
+  "version": "0.0.7-alpha",
   "description": "Test npm package attempt 2",
   "exports": {
     ".": {
