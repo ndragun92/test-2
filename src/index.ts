@@ -1,2 +1,7 @@
-export { default as sum } from './sum'
-export { default as subtract } from './subtract'
+import sum from './sum'
+import subtract from './subtract'
+
+module.exports = {
+  sum,
+  subtract
+}
