@@ -1,15 +1,16 @@
 {
   "name": "@ndragun92/test-2",
-  "version": "0.0.3",
+  "version": "0.0.10-beta",
   "description": "Test npm package attempt 2",
   "type": "module",
   "main": "./dist/test-2.umd.cjs",
-  "module": "./dist/test-2.js",
-  "types": "./dist/index.d.ts",
+  "module": "./dist/test-2.mjs",
+  "types": "./dist/src/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/test-2.js",
-      "require": "./dist/test-2.umd.cjs"
+      "import": "./dist/test-2.mjs",
+      "require": "./dist/test-2.cjs",
+      "umd": "./dist/test-2.umd.cjs"
     }
   },
   "files": [
